@@ -14,6 +14,7 @@ data/spider
 data/eval
 output_pred/
 wandb/
+dbgpt_hub/
 src/dbgpt-hub-sql/dbgpt_hub_sql/data/*
 # But track the data/eval_data folder itself
 !src/dbgpt-hub-sql/dbgpt_hub_sql/data/eval_data/
