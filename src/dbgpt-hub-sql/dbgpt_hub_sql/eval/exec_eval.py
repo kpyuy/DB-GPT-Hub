@@ -11,7 +11,7 @@ from typing import Any, List, Set, Tuple
 import tqdm
 
 # from .parse import get_all_preds_for_execution, remove_distinct
-from parse import get_all_preds_for_execution, remove_distinct
+from .parse import get_all_preds_for_execution, remove_distinct
 
 threadLock = threading.Lock()
 TIMEOUT = 60

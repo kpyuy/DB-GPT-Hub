@@ -13,9 +13,9 @@ import sqlite3
 import subprocess
 from typing import Any, Dict, Optional
 
-from exec_eval import eval_exec_match
+from .exec_eval import eval_exec_match
 from func_timeout import FunctionTimedOut, func_timeout
-from process_sql import Schema, get_schema, get_sql
+from .process_sql import Schema, get_schema, get_sql
 
 TIMEOUT = 30  # maximum waiting time for a single query
 
